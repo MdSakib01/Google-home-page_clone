@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.uperBar{
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.s1{
+   height: auto;
+   width: 250px;
+   display: flex;
+   align-items: center;
+   font-size: small;
+}
+
+.s11{
+    display: flex;
+    height: auto;
+    width: 150px;
+    justify-content: space-around;
+}
+
+.s11,a{
+    text-decoration: none;
+}
+.s1 .profile{
+    position: relative;
+    right: -15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile a{
+    font-size: 50px;
+    margin-top: 13px;
+}
+
+.googleLogo{
+   display: flex;
+   width: auto;
+   justify-content: center;
+   position: relative;
+   top: 70px;
+
+}
+.box{
+    display: flex;
+    width: auto;
+    height: 150px;
+    justify-content: center;
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(154, 151, 151) 1px;
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 550px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+   
+}
+input{
+    position: relative;
+    right: 15px;
+    height: 95%;
+    width: 75%;
+    border: none;
+    outline: none;
+}
+.searchimglogo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.voice{
+  position: absolute;
+  right: 40px;
+  height: 30px;
+  width: 30px;
+
+}
+.lens{
+    position: absolute;
+    right:10px;
+}
+.bottom-of-searchBar{
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    
+}
+
+.button input{
+   height: 35px;
+   width:120px;
+   cursor: pointer;
+   background-color: rgb(246, 246, 246);
+   border-radius: 5px;
+   font-size: small;
+}
+.button input:hover{
+    border: 2px solid rgb(221, 221, 221);
+}
+.footerContainer{
+    height: 300px;
+    width: auto;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.footer a{
+    margin-left: 7px;
+    font-size: 10px;
+}
+.location {
+    position:sticky;
+    top: 85%;
+   
+}
+
+.footer-details a{
+    margin-left: 40px;
+    font-size: 12px;
+}
